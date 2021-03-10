@@ -1,0 +1,1826 @@
+{
+  "Abdul West": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Polaris Industries",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Westlake Chemical",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Abraham Effertz": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Western Digital",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Addison O'Hara": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "AES",
+      "rep": "Rep B",
+      "ranking": 2
+    }
+  ],
+  "Adolfo Tromp": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "World Fuel Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Adrien Kuvalis": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Best Buy",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Alexanne Collins": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "PNC Financial Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Alford Swaniawski": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Williams-Sonoma",
+      "rep": "Rep B",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Nike",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Alivia Reilly": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "SunTrust Banks",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Alvis Casper": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Gilead Sciences",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Alycia Borer": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Best Buy",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Amie Ankunding": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Westlake Chemical",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Brighthouse Financial",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Amie Lowe": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Nike",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Anastasia Ryan": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "FedEx",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Angelica Bartell": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "SunTrust Banks",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Angie O'Conner": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Gilead Sciences",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Anna Anderson": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "General Mills",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Annabel O'Keefe": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Nike",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Mosaic",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Antonietta Dickinson": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Aracely Barrows": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Gilead Sciences",
+      "rep": "Rep B",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Pfizer",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Arno Adams": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "SunTrust Banks",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Beaulah Braun": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Phillips 66",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Blaze Hintz": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Nike",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Albertsons",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Bobby Streich": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "General Mills",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Braeden Padberg": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Hanesbrands",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Brandt Mohr": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "D.R. Horton",
+      "rep": "Rep A",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "PNC Financial Services",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Brandt Trantow": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Freddie Mac",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Bridgette Stehr": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Pfizer",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Brionna Renner": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Albertsons",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Brook Halvorson": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Lincoln National",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "PPL",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Bruce Murray": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Brighthouse Financial",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Caesar Nolan": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Phillips 66",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Candida Doyle": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "PNC Financial Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Carmel Prohaska": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "CarMax",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Carmela Lesch": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "FedEx",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Cathryn Treutel": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "CarMax",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Chaim Mosciski": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "CarMax",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Christ Lang": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "PNC Financial Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Citlalli Roberts": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "D.R. Horton",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Clark Okuneva": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Westlake Chemical",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Cody Jakubowski": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "PPL",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Conner Koss": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Mosaic",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Cordelia Will": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Hanesbrands",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Realogy Holdings",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Cordia Kuhn": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "FedEx",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Albertsons",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Daija Shanahan": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Freddie Mac",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Damion Gerhold": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Dannie Baumbach": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Danyka Stark": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "General Mills",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Gilead Sciences",
+      "rep": "Rep B",
+      "ranking": 3
+    }
+  ],
+  "Darian Ward": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Hanesbrands",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Darien Sauer": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Nike",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Dave Vandervort": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Polaris Industries",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Dayna Marquardt": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "iHeartMedia",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Delta Stark": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Hanesbrands",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Albertsons",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Demond Wuckert": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Best Buy",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Deven Kirlin": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Phillips 66",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Don Ratke": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Albertsons",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "AES",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Dusty Krajcik": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Easter Howell": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Williams-Sonoma",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Apache",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Edna Mayert": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Apache",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Edwin Murray": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Lincoln National",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Edwina Reichert": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Western Digital",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Elfrieda Gulgowski": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Hanesbrands",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Realogy Holdings",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Elisa Doyle": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Westlake Chemical",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Apache",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Elyse Breitenberg": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Pfizer",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "PNC Financial Services",
+      "rep": "Rep B",
+      "ranking": 2
+    }
+  ],
+  "Elza Walker": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Williams-Sonoma",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Emmy Ortiz": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Westlake Chemical",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Emory Gorczany": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "General Mills",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Ephraim Wyman": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Mosaic",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Ernest Windler": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Realogy Holdings",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Ernestine Hoppe": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Mosaic",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Ervin O'Hara": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "CarMax",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Erwin Nikolaus": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "D.R. Horton",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Estell Dach": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Becton Dickinson",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Estrella Hammes": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Brighthouse Financial",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Ethyl Wyman": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Freddie Mac",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Euna Abernathy": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Apache",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Felipe Feeney": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Becton Dickinson",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Polaris Industries",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Florian Considine": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Pfizer",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Francesca Christiansen": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Brighthouse Financial",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Francisco Hilpert": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Apache",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Frederick Gerhold": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "World Fuel Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Fredy Romaguera": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "World Fuel Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Gage Glover": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "FedEx",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Gilberto Cruickshank": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Albertsons",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Gillian Schowalter": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Albertsons",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Guy Gulgowski": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Westlake Chemical",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Gwendolyn Friesen": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Western Digital",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Harrison Kuvalis": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "General Mills",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Herman Klocko": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Realogy Holdings",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "iHeartMedia",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Herminia Brakus": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Becton Dickinson",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Hoyt Schimmel": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Nike",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Ignatius Cummerata": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Brighthouse Financial",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Isidro Ruecker": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "General Mills",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Issac Schmidt": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Western Digital",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Jairo Gibson": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Jalen Cummings": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "World Fuel Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Javier Spencer": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "iHeartMedia",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Jayda Nolan": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "D.R. Horton",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Jazmyn Purdy": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Lincoln National",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Williams-Sonoma",
+      "rep": "Rep B",
+      "ranking": 3
+    }
+  ],
+  "Jeanette Stiedemann": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Becton Dickinson",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Jedidiah Satterfield": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Phillips 66",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Joana Durgan": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Phillips 66",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "iHeartMedia",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Joannie Fisher": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "AES",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Junior Shields": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "AES",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Juvenal Ankunding": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Best Buy",
+      "rep": "Rep A",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Kade Rohan": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Brighthouse Financial",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Kane Hoppe": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Western Digital",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Karina Kuphal": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Pfizer",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Kelli Ledner": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "FedEx",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "King Dare": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "World Fuel Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Laurine Schaefer": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "SunTrust Banks",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Laury Daniel": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Phillips 66",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Freddie Mac",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Lavonne Bashirian": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Lincoln National",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Lee Zemlak": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Lincoln National",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "SunTrust Banks",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Leif Harvey": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "PNC Financial Services",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Hanesbrands",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Becton Dickinson",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Leo Glover": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "SunTrust Banks",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Lexus Hermiston": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "PPL",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Libbie Rogahn": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "General Mills",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Lillian Kerluke": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "PPL",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Liza Wunsch": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "D.R. Horton",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Madison O'Hara": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "PPL",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Mallory Graham": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "AES",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Marc Turcotte": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Apache",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Marcel O'Keefe": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "PNC Financial Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Margret Aufderhar": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Pfizer",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Marian Ziemann": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Freddie Mac",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Maribel Mitchell": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Phillips 66",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Marilou Friesen": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "FedEx",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Marley Terry": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "AES",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Polaris Industries",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Marques Macejkovic": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Phillips 66",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Freddie Mac",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Matilda Treutel": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "FedEx",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "AES",
+      "rep": "Rep B",
+      "ranking": 3
+    }
+  ],
+  "Mattie Ortiz": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Becton Dickinson",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Maureen Walsh": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "CarMax",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Maurice Mosciski": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Westlake Chemical",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Maverick Mosciski": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "iHeartMedia",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "PNC Financial Services",
+      "rep": "Rep B",
+      "ranking": 2
+    }
+  ],
+  "Maverick Turner": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Williams-Sonoma",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Max Wiza": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Mosaic",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Mayra Gutmann": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Albertsons",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Freddie Mac",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Meaghan Reichel": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Polaris Industries",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Melisa Oberbrunner": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "SunTrust Banks",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Modesta Welch": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Lincoln National",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep B",
+      "ranking": 2
+    }
+  ],
+  "Mohammed Stracke": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "FedEx",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Monique Hilll": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Becton Dickinson",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Monserrat Romaguera": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "D.R. Horton",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Polaris Industries",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Muhammad Lang": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Realogy Holdings",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Mylene Erdman": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Realogy Holdings",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "D.R. Horton",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Myriam Adams": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Best Buy",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Myrna Hayes": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Western Digital",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Naomi Vandervort": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Polaris Industries",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Narciso Graham": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "CarMax",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Oceane King": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Williams-Sonoma",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Oren Walker": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Gilead Sciences",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Hanesbrands",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Oswaldo Cremin": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "PPL",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Otto Halvorson": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Gilead Sciences",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "D.R. Horton",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Pearl Romaguera": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Pink Cummerata": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Gilead Sciences",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Best Buy",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Rachelle Bechtelar": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Mosaic",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Rahsaan Klein": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "CarMax",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Rahsaan Nader": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "PPL",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Reece Johnson": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "World Fuel Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Remington Hartmann": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "General Mills",
+      "rep": "Rep B",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Lincoln National",
+      "rep": "Rep B",
+      "ranking": 2
+    }
+  ],
+  "Roberta Corkery": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Hanesbrands",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Roman Vandervort": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "iHeartMedia",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Ronaldo Graham": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Lincoln National",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Roselyn Klocko": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Apache",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Rudolph Braun": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Western Digital",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Sam Halvorson": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Becton Dickinson",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Seamus West": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "CarMax",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Sebastian Rosenbaum": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Best Buy",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Seth Senger": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "SunTrust Banks",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Shana McDermott": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "PPL",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Shane Wolff": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Gilead Sciences",
+      "rep": "Rep A",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Polaris Industries",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Shania Nitzsche": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Reinsurance Group of America",
+      "rep": "Rep B",
+      "ranking": 3
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Apache",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Sister Dicki": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Realogy Holdings",
+      "rep": "Rep B",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Mosaic",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Soledad Pouros": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Best Buy",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Spencer Koss": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "World Fuel Services",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Stephania Trantow": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "iHeartMedia",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Stephany Leuschke": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Williams-Sonoma",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Stuart Reilly": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Thea Greenholt": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "iHeartMedia",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Williams-Sonoma",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Trevion Krajcik": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Nike",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Trystan Quigley": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Freddie Mac",
+      "rep": "Rep A",
+      "ranking": 1
+    },
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "AES",
+      "rep": "Rep A",
+      "ranking": 2
+    }
+  ],
+  "Tyra Gutmann": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Brighthouse Financial",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Valerie Klocko": [
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "Realogy Holdings",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Vaughn Bernier": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Western Digital",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Veda Grant": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Pfizer",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Velma King": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep A",
+      "ranking": 2
+    },
+    {
+      "timeSlot": "12:30 - 12:45",
+      "company": "World Fuel Services",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Virgie Lemke": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Pfizer",
+      "rep": "Rep A",
+      "ranking": 1
+    }
+  ],
+  "Werner Kuhn": [
+    {
+      "timeSlot": "12:45 - 1:00",
+      "company": "Nike",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Willis Bechtelar": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Mosaic",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Winnifred Rolfson": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Thermo Fisher Scientific",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Wyatt Labadie": [
+    {
+      "timeSlot": "12:15 - 12:30",
+      "company": "Brighthouse Financial",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ],
+  "Yvonne Champlin": [
+    {
+      "timeSlot": "12:00 - 12:15",
+      "company": "Westlake Chemical",
+      "rep": "Rep B",
+      "ranking": 1
+    }
+  ]
+}
