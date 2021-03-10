@@ -1,5 +1,7 @@
 # cmcjobfair
 
+Currently (March 10, 2021) hosted here: http://jobfairmatcher.kellogg.work/
+
 ## Project setup
 ```
 npm install
