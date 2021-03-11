@@ -4,7 +4,10 @@
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
         <h1>Simple Optimizer</h1>
-        <v-expansion-panels popout>
+        <v-expansion-panels
+          v-model="helpPanel"
+          popout
+        >
           <v-expansion-panel>
             <v-expansion-panel-header
               expand-icon="mdi-help"
@@ -109,6 +112,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      helpPanel: [],
       csvRankings: "",
       isStarted: false
     }
@@ -120,6 +124,7 @@ export default Vue.extend({
     isWorking(val) {
       if (val) {
         this.isStarted = true
+        this.helpPanel = []
       }
       if(!val && this.isStarted) {
         // we're finished

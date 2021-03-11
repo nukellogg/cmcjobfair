@@ -4,7 +4,10 @@
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
         <h1>Kellogg CMC Job Fair Interview Assignments Optimizer</h1>
-        <v-expansion-panels popout>
+        <v-expansion-panels
+          v-model="helpPanel"
+          popout
+        >
           <v-expansion-panel>
             <v-expansion-panel-header
               expand-icon="mdi-help"
@@ -29,6 +32,10 @@
                 still schedule conflicts and/or unassigned students after 100
                 iterations.
               </p>
+              <p>
+                If this goes on too long, the best way to stop it is to close the
+                browser tab and re-open it.
+              </p>
               <p v-if="!isWorking">
                 Try pressing <v-btn v-if="!isWorking" class="warning" @click.stop="createFakeRankingsJobFair">Fill Fake Data</v-btn> if you want to see what the data format should be. You can then press <v-btn v-if="!isWorking" class="success" @click.stop="compute">Find Assignments</v-btn><v-btn v-else class="grey" disabled>Working...</v-btn> to see what the results would look like. 
               </p>
@@ -44,7 +51,7 @@
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
-    <v-row>
+    <v-row v-show="!isWorking">
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
         <v-textarea
@@ -80,10 +87,10 @@
       <v-col cols="12" md="10">
         <h2 id="results">Results</h2>
         <h3>Status: {{ status }}</h3>
-        <v-expansion-panels>
+        <v-expansion-panels multiple>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              <h4>Download Assignments in CSV</h4>
+              <h4>Download assignments from each iteration in CSV format</h4>
               </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ol>
@@ -106,7 +113,7 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              <h4>Current Interview Assignments</h4>
+              <h4>Current interview assignments</h4>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ResultsJobFair />
@@ -114,7 +121,7 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              <h4>Status Log (Updated Live! ⚡️)</h4>
+              <h4>Status Log (Updated live! ⚡️)</h4>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ul>
@@ -160,6 +167,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      helpPanel: [],
       csvRankings: "",
       isStarted: false,
       maxIterations: 100,
@@ -174,10 +182,12 @@ export default Vue.extend({
     isWorking(val) {
       if (val) {
         this.isStarted = true
+        this.helpPanel = []
         this.$vuetify.goTo('#results')
       }
       if(!val && this.isStarted) {
         // we're finished
+//        this.csvRankings = ""
         if(this.jobfair.conflictsCount === 0 && this.jobfair.nonAssignedStudentsCount === 0) {
           this.celebrate()
         }
