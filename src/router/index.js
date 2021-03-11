@@ -1,20 +1,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Optimizer from '../views/Optimizer.vue'
-import Qualtrics from '../views/Qualtrics.vue'
+import Base from '../views/Base.vue'
+import CMCOptimizer from '../components/CMCOptimizer.vue'
+import QualtricsConverter from '../components/QualtricsConverter.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{
-  path: '/',
-  name: 'Optimizer',
-  component: Optimizer
-},
+const routes = [
   {
-    path: '/qualtrics',
-    name: 'Qualtrics',
-    component: Qualtrics
-}]
+    path: '/',
+    component: Base,
+    children: [
+      { path: '', component: CMCOptimizer },
+      { path: 'qualtrics', component: QualtricsConverter }
+    ]
+  }
+]
 
 const router = new VueRouter({
   mode: 'history',
