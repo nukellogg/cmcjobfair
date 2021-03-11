@@ -138,7 +138,7 @@ const store = new Vuex.Store({
       let students = firstColumn.slice(1, firstColumn.length);
       let rankings = data.slice(1, data.length)
         .map(row => row.slice(1, row.length))
-        .map(row => row.map(item => item ? item : state.unrankedValue))
+        .map(row => row.map(item => item.trim() ? item : state.unrankedValue))
         .map(row => row.map(item => parseInt(item)));
       commit('setCompanies', companies);
       commit('setStudents', students);
