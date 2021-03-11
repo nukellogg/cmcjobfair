@@ -24,7 +24,12 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar color="deep-purple" dark app>
+    <v-app-bar
+      color="deep-purple"
+      fixed
+      app
+      dark
+    >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
     </v-app-bar>
@@ -69,9 +74,9 @@ export default Vue.extend({
 
 <style scoped>
 header {
-  position: absolute !important;
+  /* position: absolute !important;
   top: 0 !important;
-  left: 0 !important;
+  left: 0 !important; */
   z-index: 99999 !important;
 }
 

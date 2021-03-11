@@ -60,11 +60,10 @@
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
-    <v-row v-if="isStarted">
+    <v-row v-show="isStarted">
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
         <h2>Student/Company Assignments</h2>
-        <a href="#"  id="results"></a>
         <p>
           Download Assignments in CSV: 
           <v-btn
@@ -128,7 +127,6 @@ export default Vue.extend({
       }
       if(!val && this.isStarted) {
         // we're finished
-        this.$vuetify.goTo('#results')
         this.celebrate()
       }
     },

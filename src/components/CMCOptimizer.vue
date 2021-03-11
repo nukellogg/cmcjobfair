@@ -33,8 +33,8 @@
                 iterations.
               </p>
               <p>
-                If this goes on too long, the best way to stop it is to close the
-                browser tab and re-open it.
+                😵 If this goes on too long, the best way to stop it is to close the
+                browser tab and re-open it. 😵
               </p>
               <p v-if="!isWorking">
                 Try pressing <v-btn v-if="!isWorking" class="warning" @click.stop="createFakeRankingsJobFair">Fill Fake Data</v-btn> if you want to see what the data format should be. You can then press <v-btn v-if="!isWorking" class="success" @click.stop="compute">Find Assignments</v-btn><v-btn v-else class="grey" disabled>Working...</v-btn> to see what the results would look like. 
