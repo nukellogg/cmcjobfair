@@ -38,9 +38,12 @@ import Vue from "vue";
 import { mapState } from "vuex";
 
 export default Vue.extend({
-  name: "Results",
+  name: "ResultsJobFair",
   computed: {
-    ...mapState(["assignments"]),
+    ...mapState(["jobfair"]),
+    assignments() {
+      return this.jobfair.assignments;
+    }
   },
   data() {
     return {

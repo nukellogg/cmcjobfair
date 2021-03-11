@@ -4,11 +4,43 @@
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
         <h1>Kellogg CMC Job Fair Interview Assignments Optimizer</h1>
-        <p>
-          Convert your Qualtrics survey output to the required format in the
-          <router-link to="Qualtrics">Qualtrics Converter</router-link>
-          first.
-        </p>
+        <v-expansion-panels popout>
+          <v-expansion-panel>
+            <v-expansion-panel-header
+              expand-icon="mdi-help"
+              color="yellow"
+              disable-icon-rotate
+            >
+                <h4>Help</h4>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <p>
+                For the CMC Job Fair, this will optimally schedule students for
+                interviews with companies that they've numerically ranked. This
+                takes into account that each company may have a variable number
+                of reps coming to the job fair.
+              </p>
+              <p>
+                This is a computationally intense process, so please be patient
+                as this iteratively tries to find a schedule that includes all
+                students without schedule conflicts. It actually might not find
+                such a schedule within the default of 100 iterations max, so you
+                may need to change this number to something higher if there are
+                still schedule conflicts and/or unassigned students after 100
+                iterations.
+              </p>
+              <p v-if="!isWorking">
+                Try pressing <v-btn v-if="!isWorking" class="warning" @click.stop="createFakeRankingsJobFair">Fill Fake Data</v-btn> if you want to see what the data format should be. You can then press <v-btn v-if="!isWorking" class="success" @click.stop="compute">Find Assignments</v-btn><v-btn v-else class="grey" disabled>Working...</v-btn> to see what the results would look like. 
+              </p>
+              <p>
+                Convert your Qualtrics survey output to the required format in the
+                <router-link to="Qualtrics">Qualtrics Converter</router-link>
+                first.
+              </p>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
@@ -40,35 +72,23 @@
         >
           Working...
         </v-btn>
-        <v-btn
-          v-if="!isWorking"
-          class="warning"
-          @click.stop="createFakeRankings"
-        >
-          Fill Fake Data
-        </v-btn>
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
     <v-row v-if="isStarted">
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
-        Status: {{ status }}
+        <h2 id="results">Results</h2>
+        <h3>Status: {{ status }}</h3>
         <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Current Interview Assignments
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <Results />
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-          <v-expansion-panel>
-            <v-expansion-panel-header>Download Assignments in CSV</v-expansion-panel-header>
+              <h4>Download Assignments in CSV</h4>
+              </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ol>
                 <li
-                  v-for="(payload, iteration) in history"
+                  v-for="(payload, iteration) in jobfair.history"
                   :key="iteration"
                 >
                   <v-btn
@@ -86,11 +106,19 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Status Log (Updated Live! ⚡️)
+              <h4>Current Interview Assignments</h4>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <ResultsJobFair />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              <h4>Status Log (Updated Live! ⚡️)</h4>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ul>
-                <li v-for="(status, i) in statusLog" :key="i">
+                <li v-for="(status, i) in jobfair.statusLog" :key="i">
                   {{ status }}
                 </li>
               </ul>
@@ -105,53 +133,29 @@
 
 <script>
 import Vue from 'vue'
-import { mapState, mapActions } from 'vuex'
-import Results from '@/components/Results'
+import { mapState, mapActions, mapGetters } from 'vuex'
+import ResultsJobFair from '@/components/ResultsJobFair'
 import * as Papaparse from 'papaparse'
+import { roundNumber } from '@/utils/formatters'
+import { saveFile } from '@/utils/download'
 import kelloggConfetti from '@/utils/kellogg-confetti'
-
 
 export default Vue.extend({
   name: "Home",
   components: {
-    Results,
+    ResultsJobFair,
   },
   computed: {
-    ...mapState([
-      "rawCsvRankings",
-      "companies",
-      "students",
-      "rankings",
-      "scheduleSlots",
-      "assignments",
-      "statusLog",
-      "isWorking",
-      "iteration",
-      "conflictsCount",
-      "nonAssignedStudentsCount",
-      "avgSatisfaction",
-      "history"
-    ]),
-    assignmentsOutput() {
-      return JSON.stringify(this.assignments, null, 2);
+    ...mapState([ 'jobfair' ]),
+    ...mapGetters([ 'statusJobFair' ]),
+    rawCsvRankings() {
+      return this.jobfair.rawCsvRankings
+    },
+    isWorking() {
+      return this.jobfair.isWorking
     },
     status() {
-      if(this.isWorking && (this.conflictsCount || this.nonAssignedStudentsCount)) {
-        return `Iteration ${this.iteration}: ${this.conflictsCount} scheduling conflict(s), ${this.nonAssignedStudentsCount} student(s) without assignments, ${this.roundNumber(this.avgSatisfaction, 2)} average ranking)`
-      } else {
-        // we're done
-        if(this.conflictsCount === 0 && this.nonAssignedStudentsCount === 0) {
-          return `🎉  Yippee! After ${this.iteration} iterations, everyone has at least one interview and there are no scheduling conflicts! 🎉 `
-        } else if(this.conflictsCount > 0 && this.nonAssignedStudentsCount > 0) {
-          return `😭 The optimizer ran out of iterations, but there are still ${this.confictsCount} scheduling conflicts and ${this.nonAssignedStudentsCount} students without interviews.`
-        } else if(this.conflictsCount > 0) {
-          return `😭 The optimizer ran out of iterations, but there are still ${this.confictsCount} scheduling conflicts.`
-        } else if(this.nonAssignedStudentsCount > 0) {
-          return `😭 The optimizer ran out of iterations, but there are still ${this.nonAssignedStudentsCount} students without interviews.`
-        } else {
-          return `Working...`
-        }
-      }
+      return this.statusJobFair
     }
   },
   data() {
@@ -160,65 +164,66 @@ export default Vue.extend({
       isStarted: false,
       maxIterations: 100,
       maxIterationsRules: [v => parseInt(v) > 1 || "Must be greater than 0."]
-    };
+    }
   },
   watch: {
     rawCsvRankings(oldVal, newVal) {
-      this.csvRankings = oldVal;
-      console.log(newVal);
+      this.csvRankings = oldVal
+      console.log(newVal)
     },
     isWorking(val) {
       if (val) {
-        this.isStarted = true;
+        this.isStarted = true
+        this.$vuetify.goTo('#results')
       }
       if(!val && this.isStarted) {
         // we're finished
-        if(this.conflictsCount === 0 && this.nonAssignedStudentsCount === 0) {
-          this.celebrate();
+        if(this.jobfair.conflictsCount === 0 && this.jobfair.nonAssignedStudentsCount === 0) {
+          this.celebrate()
         }
       }
     },
   },
   created() {
-    document.title = "Kellogg CMC Job Fair Interview Optimizer";
+    document.title = "Kellogg CMC Job Fair Interview Optimizer"
   },
 
   methods: {
-    ...mapActions(["createFakeRankings", "resetState", "ingestCsv", "computeAssignments"]),
-    roundNumber(val, places) {
-      let multiplier = Math.pow(10, places);
-      return Math.trunc(multiplier * val) / multiplier;
-    },
+    ...mapActions([
+      "createFakeRankingsJobFair",
+      "resetStateJobFair",
+      "ingestCsvJobFair",
+      "computeAssignmentsJobFair"
+    ]),
     compute() {
-      this.resetState();
-      this.ingestCsv(this.csvRankings);
-      this.computeAssignments({maxIterations: this.maxIterations});
+      this.resetStateJobFair()
+      this.ingestCsvJobFair(this.csvRankings)
+      this.computeAssignmentsJobFair({maxIterations: this.maxIterations})
     },
-    filename(payload, iteration) {
-      return `Iteration${iteration + 1}-${Object.keys(payload.assignments).length}AssignedStudents-${payload.nonAssignedStudents.length}UnassignedStudents-${payload.conflicts.length}Conflicts-${this.roundNumber(payload.avgSatisfaction, 2)}AvgRanking.csv`;
+    filename({
+      assignments,
+      nonAssignedStudents,
+      conflicts,
+      avgSatisfaction
+    }, iteration) {
+      let i = `Iteration${iteration + 1}`
+      let a = `${Object.keys(assignments).length}AssignedStudents`
+      let u = `${nonAssignedStudents.length}UnassignedStudents`
+      let c = `${conflicts.length}Conflicts`
+      let r = `${roundNumber(avgSatisfaction, 2)}AvgRanking`
+      return `${i}-${a}-${u}-${c}-${r}.csv`
     },
     save(filename, data) {
-      // data here is a list of lists, which represents lines of a CSV. Use Papaparse to turn into a single string
-      // with linebreaks.
-      let csvString = Papaparse.unparse(data);
-      var blob = new Blob([csvString], {type: 'text/csv'});
-      if(window.navigator.msSaveOrOpenBlob) {
-        window.navigator.msSaveOrOpenBlob(blob, filename);
-      } else {
-        var elem = window.document.createElement('a');
-        elem.href = window.URL.createObjectURL(blob, { oneTimeOnly: true });
-        elem.download = filename;
-        elem.style.display = 'none';
-        document.body.appendChild(elem);
-        elem.click();
-        document.body.removeChild(elem);
-      }
+      // data here is a list of lists, which represents lines of a CSV. Use
+      // Papaparse to turn into a single string with linebreaks.
+      let csvString = Papaparse.unparse(data)
+      saveFile(filename, csvString, 'text/csv')
     },
     celebrate() {
       kelloggConfetti(5)
     }
   },
-});
+})
 </script>
 
 <style scoped>

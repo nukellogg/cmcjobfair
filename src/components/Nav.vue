@@ -42,15 +42,20 @@ export default Vue.extend({
       drawer: false,
       links: [
         {
+          text: "Job Fair Optimizer",
+          icon: "mdi-robot-happy",
+          route: "/",
+        },
+        {
+          text: "Simple Optimizer",
+          icon: "mdi-square-root",
+          route: "/simple"
+        },
+        {
           text: "Qualtrics Converter",
           icon: "mdi-database-cog",
           route: "/qualtrics",
         },
-        {
-          text: "Job Fair Optimizer",
-          icon: "mdi-robot-happy",
-          route: "/",
-        }
       ],
     }
   },

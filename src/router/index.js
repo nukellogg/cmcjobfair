@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Base from '../views/Base.vue'
 import CMCOptimizer from '../components/CMCOptimizer.vue'
 import QualtricsConverter from '../components/QualtricsConverter.vue'
+import SimpleOptimizer from '../components/SimpleOptimizer.vue'
 
 Vue.use(VueRouter)
 
@@ -12,7 +13,8 @@ const routes = [
     component: Base,
     children: [
       { path: '', component: CMCOptimizer },
-      { path: 'qualtrics', component: QualtricsConverter }
+      { path: 'qualtrics', component: QualtricsConverter },
+      { path: 'simple', component: SimpleOptimizer }
     ]
   }
 ]
