@@ -1,6 +1,6 @@
 # cmcjobfair
 
-Currently (March 10, 2021) hosted here: http://jobfairmatcher.kellogg.work/
+Currently (March 10, 2021) hosted here: http://jobfairmatcher.kellogg.work/ (using [surge.sh](https://surge.sh/))
 
 ## Project setup
 ```
