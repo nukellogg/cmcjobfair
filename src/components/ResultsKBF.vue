@@ -12,11 +12,11 @@ import Vue from "vue";
 import { mapState } from "vuex";
 
 export default Vue.extend({
-  name: "ResultsSimple",
+  name: "ResultsKBF",
   computed: {
-    ...mapState(["simple"]),
+    ...mapState(["kbf"]),
     assignments() {
-      return this.simple.assignments;
+      return this.kbf.assignments;
     }
   },
   data() {

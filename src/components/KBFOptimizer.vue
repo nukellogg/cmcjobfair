@@ -3,7 +3,7 @@
     <v-row>
       <v-spacer></v-spacer>
       <v-col cols="12" md="10">
-        <h1>Simple Optimizer</h1>
+        <h1>KBF Optimizer</h1>
         <v-expansion-panels
           v-model="helpPanel"
           popout
@@ -21,7 +21,7 @@
                 This will optimally match students to companies when the students have numerically ranked their individual preferences for the companies.
               </p>
               <p v-if="!isWorking">
-                Try pressing <v-btn v-if="!isWorking" class="warning" @click.stop="createFakeRankingsSimple">Fill Fake Data</v-btn> if you want to see what the data format should be. You can then press <v-btn v-if="!isWorking" class="success" @click.stop="compute">Find Assignments</v-btn><v-btn v-else class="grey" disabled>Working...</v-btn> to see what the results would look like. 
+                Try pressing <v-btn v-if="!isWorking" class="warning" @click.stop="createFakeRankingsKBF">Fill Fake Data</v-btn> if you want to see what the data format should be. You can then press <v-btn v-if="!isWorking" class="success" @click.stop="compute">Find Assignments</v-btn><v-btn v-else class="grey" disabled>Working...</v-btn> to see what the results would look like. 
               </p>
               <p>
                 If you're using Qualtrics to collect the student rankings, you can
@@ -76,7 +76,7 @@
           </v-btn>
           {{ filename({ avgSatisfaction }) }}
         </p>
-        <ResultsSimple />
+        <ResultsKBF />
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
@@ -86,7 +86,7 @@
 <script>
 import Vue from 'vue'
 import { mapState, mapActions } from 'vuex'
-import ResultsSimple from '@/components/ResultsSimple'
+import ResultsKBF from '@/components/ResultsKBF'
 import * as Papaparse from 'papaparse'
 import { roundNumber } from '@/utils/formatters'
 import { saveFile } from '@/utils/download'
@@ -95,18 +95,18 @@ import kelloggConfetti from '@/utils/kellogg-confetti'
 export default Vue.extend({
   name: "Home",
   components: {
-    ResultsSimple,
+    ResultsKBF,
   },
   computed: {
-    ...mapState([ 'simple' ]),
+    ...mapState([ 'kbf' ]),
     rawCsvRankings() {
-      return this.simple.rawCsvRankings
+      return this.kbf.rawCsvRankings
     },
     isWorking() {
-      return this.simple.isWorking
+      return this.kbf.isWorking
     },
     avgSatisfaction() {
-      return this.simple.avgSatisfaction
+      return this.kbf.avgSatisfaction
     }
   },
   data() {
@@ -132,20 +132,20 @@ export default Vue.extend({
     },
   },
   created() {
-    document.title = "Simple Student/Company Matching Optimizer"
+    document.title = "KBF Student/Company Matching Optimizer"
   },
 
   methods: {
     ...mapActions([
-      "createFakeRankingsSimple",
-      "resetStateSimple",
-      "ingestCsvSimple",
-      "computeAssignmentsSimple"
+      "createFakeRankingsKBF",
+      "resetStateKBF",
+      "ingestCsvKBF",
+      "computeAssignmentsKBF"
     ]),
     compute() {
-      this.resetStateSimple()
-      this.ingestCsvSimple(this.csvRankings)
-      this.computeAssignmentsSimple()
+      this.resetStateKBF()
+      this.ingestCsvKBF(this.csvRankings)
+      this.computeAssignmentsKBF()
     },
     filename(payload) {
       let r = `${roundNumber(payload.avgSatisfaction, 2)}AvgRanking`

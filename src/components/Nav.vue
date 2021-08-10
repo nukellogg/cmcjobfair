@@ -43,18 +43,13 @@ import kelloggConfetti from '@/utils/kellogg-confetti'
 export default Vue.extend({
   data() {
     return {
-      appTitle: "Kellogg CMC Job Fair Interview Assignments Optimizer",
+      appTitle: "Kellogg Board Fellows Optimizer",
       drawer: false,
       links: [
         {
-          text: "Job Fair Optimizer",
-          icon: "mdi-robot-happy",
-          route: "/",
-        },
-        {
-          text: "Simple Optimizer",
+          text: "KBF Optimizer",
           icon: "mdi-square-root",
-          route: "/simple"
+          route: "/"
         },
         {
           text: "Qualtrics Converter",
